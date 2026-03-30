@@ -5,7 +5,7 @@ Python 3.10+ (Recommended)
 Hardware: AMD Ryzen 5 5500 (CPU-based inference)
 RAM: 16GB
 🚀 Step-by-Step Setup
-1. Project Organization
+# 1. Project Organization
 Place your data.yaml, train/, and test/ folders in the root directory. Ensure your data.yaml points to the correct local paths:
 -----------yaml---------------
 path: C:/Your/Project/Path
@@ -13,7 +13,7 @@ train: train/images
 val: train/images
 Use code with caution.
 
-2. Environment Setup
+# 2. Environment Setup
 To avoid system-wide conflicts, always use a Virtual Environment:
 -----------powershell-----------
 # Create the environment
@@ -26,13 +26,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 Use code with caution.
 
-3. Installation
+# 3. Installation
 Install the Ultralytics engine and YouTube support:
 -------------powershell--------------
 pip install ultralytics yt-dlp
 Use code with caution.
 
-4. Running Detection
+# 4. Running Detection
 Create a file named start_train.py and run it:
 --------------python-----------------
 from ultralytics import YOLO
