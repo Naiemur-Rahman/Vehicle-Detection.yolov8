@@ -1,0 +1,7 @@
+path: C:/Users/User/Downloads/Compressed/Traffic Vehicle Detection.yolov8  # Use forward slashes /
+train: train/images
+val: train/images   # Since you don't have a 'valid' folder yet, we use train for both
+test: train/images
+
+nc: 11
+names: ['Ambulance', 'Bikes', 'Bus', 'Fire truck', 'Leguna', 'Pickup', 'Police cars', 'Truck', 'auto-ricksaw', 'cng', 'private car']
