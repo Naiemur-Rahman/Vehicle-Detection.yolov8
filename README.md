@@ -53,8 +53,7 @@ Solution: I used Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Proces
 Problem: The terminal didn't recognize the yolo shortcut even after installation.
 Solution: I switched to using python -m ultralytics or running direct Python scripts, which is more reliable on Windows systems.
 4. CPU Limitations
-Problem: I do not have a dedicated Nvidia GPU, leading to slow processing.
-Solution: I used the yolov8n.pt (Nano) model and specified device='cpu' to ensure the project runs smoothly on my Ryzen 5 processor.
+I used the yolov8n.pt (Nano) model and specified device='cpu' to ensure the project runs smoothly on my processor. If you want better result train and run using gpu
 📊 Results
 The processed videos are saved in runs/detect/predict/. The model successfully identifies 11 different classes of vehicles common in traffic environments.
 
